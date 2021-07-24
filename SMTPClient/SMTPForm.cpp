@@ -19,65 +19,65 @@ VOID OnSendMessage();
 string GetServerIP();
 vector<string> GetRecipients();
 
-// Идентификатор элемента управления ввода доменного имени сервера.
+// РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЌР»РµРјРµРЅС‚Р° СѓРїСЂР°РІР»РµРЅРёСЏ РІРІРѕРґР° РґРѕРјРµРЅРЅРѕРіРѕ РёРјРµРЅРё СЃРµСЂРІРµСЂР°.
 const int IDC_EDIT_SERVER_NAME = 2001;
-// Идентификатор элемента управления ввода IP-адреса сервера.
+// РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЌР»РµРјРµРЅС‚Р° СѓРїСЂР°РІР»РµРЅРёСЏ РІРІРѕРґР° IP-Р°РґСЂРµСЃР° СЃРµСЂРІРµСЂР°.
 const int IDC_IP_SERVER_IP = 2002;
-// Идентификатор элемента управления ввода почты отправителя (логина).
+// РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЌР»РµРјРµРЅС‚Р° СѓРїСЂР°РІР»РµРЅРёСЏ РІРІРѕРґР° РїРѕС‡С‚С‹ РѕС‚РїСЂР°РІРёС‚РµР»СЏ (Р»РѕРіРёРЅР°).
 const int IDC_EDIT_SENDER = 2003;
-// Идентификатор элемента управления ввода пароля.
+// РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЌР»РµРјРµРЅС‚Р° СѓРїСЂР°РІР»РµРЅРёСЏ РІРІРѕРґР° РїР°СЂРѕР»СЏ.
 const int IDC_EDIT_PASSWORD = 2004;
-// Идентификатор элемента управления списка получателей.
+// РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЌР»РµРјРµРЅС‚Р° СѓРїСЂР°РІР»РµРЅРёСЏ СЃРїРёСЃРєР° РїРѕР»СѓС‡Р°С‚РµР»РµР№.
 const int IDC_LISTBOX_RECIPIENTS = 2005;
-// Идентификатор элемента управления ввода получателя.
+// РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЌР»РµРјРµРЅС‚Р° СѓРїСЂР°РІР»РµРЅРёСЏ РІРІРѕРґР° РїРѕР»СѓС‡Р°С‚РµР»СЏ.
 const int IDC_EDIT_RECIPIENT = 2006;
-// Идентификатор элемента управления кнопки добавления получателя.
+// РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЌР»РµРјРµРЅС‚Р° СѓРїСЂР°РІР»РµРЅРёСЏ РєРЅРѕРїРєРё РґРѕР±Р°РІР»РµРЅРёСЏ РїРѕР»СѓС‡Р°С‚РµР»СЏ.
 const int IDC_BUTTON_ADD_RECIPIENT = 2007;
-// Идентификатор элемента управления кнопки удаления получателя.
+// РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЌР»РµРјРµРЅС‚Р° СѓРїСЂР°РІР»РµРЅРёСЏ РєРЅРѕРїРєРё СѓРґР°Р»РµРЅРёСЏ РїРѕР»СѓС‡Р°С‚РµР»СЏ.
 const int IDC_BUTTON_DELETE_RECIPIENT = 2008;
-// Идентификатор элемента управления ввода текста письма.
+// РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЌР»РµРјРµРЅС‚Р° СѓРїСЂР°РІР»РµРЅРёСЏ РІРІРѕРґР° С‚РµРєСЃС‚Р° РїРёСЃСЊРјР°.
 const int IDC_EDIT_MESSAGE = 2009;
-// Идентификатор элемента управления кнопки отправления сообщения.
+// РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЌР»РµРјРµРЅС‚Р° СѓРїСЂР°РІР»РµРЅРёСЏ РєРЅРѕРїРєРё РѕС‚РїСЂР°РІР»РµРЅРёСЏ СЃРѕРѕР±С‰РµРЅРёСЏ.
 const int IDC_BUTTON_SEND = 2010;
-// Идентификатор элемента управления ввода темы письма.
+// РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЌР»РµРјРµРЅС‚Р° СѓРїСЂР°РІР»РµРЅРёСЏ РІРІРѕРґР° С‚РµРјС‹ РїРёСЃСЊРјР°.
 const int IDC_EDIT_SUBJECT = 2011;
-// Идентификатор элемента управления списка прикреплённых файлов.
+// РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЌР»РµРјРµРЅС‚Р° СѓРїСЂР°РІР»РµРЅРёСЏ СЃРїРёСЃРєР° РїСЂРёРєСЂРµРїР»С‘РЅРЅС‹С… С„Р°Р№Р»РѕРІ.
 const int IDC_LISTBOX_FILES = 2012;
-// Идентификатор элемента управления кнопки добавления файла.
+// РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЌР»РµРјРµРЅС‚Р° СѓРїСЂР°РІР»РµРЅРёСЏ РєРЅРѕРїРєРё РґРѕР±Р°РІР»РµРЅРёСЏ С„Р°Р№Р»Р°.
 const int IDC_BUTTON_ADD_FILE = 2013;
-// Идентификатор элемента управления кнопки удаления файла.
+// РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЌР»РµРјРµРЅС‚Р° СѓРїСЂР°РІР»РµРЅРёСЏ РєРЅРѕРїРєРё СѓРґР°Р»РµРЅРёСЏ С„Р°Р№Р»Р°.
 const int IDC_BUTTON_DELETE_FILE = 2014;
 
-// Пустая строка.
+// РџСѓСЃС‚Р°СЏ СЃС‚СЂРѕРєР°.
 LPCTSTR TEXT_EMPTY = TEXT("");
-// Названия оконного класса главного окна.
+// РќР°Р·РІР°РЅРёСЏ РѕРєРѕРЅРЅРѕРіРѕ РєР»Р°СЃСЃР° РіР»Р°РІРЅРѕРіРѕ РѕРєРЅР°.
 LPCTSTR MAIN_WINDOW_CLASS = TEXT("SMTP_FORM");
-// "Подпись" главного окна.
+// "РџРѕРґРїРёСЃСЊ" РіР»Р°РІРЅРѕРіРѕ РѕРєРЅР°.
 LPCTSTR MAIN_WINDOW_LABEL = TEXT("ChushkinSMTP");
-// Максимальная длина строки, введённой в элемент управления ввода.
+// РњР°РєСЃРёРјР°Р»СЊРЅР°СЏ РґР»РёРЅР° СЃС‚СЂРѕРєРё, РІРІРµРґС‘РЅРЅРѕР№ РІ СЌР»РµРјРµРЅС‚ СѓРїСЂР°РІР»РµРЅРёСЏ РІРІРѕРґР°.
 const int EDIT_LIMIT = 50;
-// Максимальная длина отправляемого текста.
+// РњР°РєСЃРёРјР°Р»СЊРЅР°СЏ РґР»РёРЅР° РѕС‚РїСЂР°РІР»СЏРµРјРѕРіРѕ С‚РµРєСЃС‚Р°.
 const int MESSAGE_LIMIT = 1000;
-// Максимальное количество получателей почты.
+// РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РїРѕР»СѓС‡Р°С‚РµР»РµР№ РїРѕС‡С‚С‹.
 const int RECIPIENT_LIMIT = 5;
-// Максимальное количество прикреплённых файлов.
+// РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРёРєСЂРµРїР»С‘РЅРЅС‹С… С„Р°Р№Р»РѕРІ.
 const int FILE_LIMIT = 5;
-// Максимальнs размер прикрепляемого файла (в Мбайт).
+// РњР°РєСЃРёРјР°Р»СЊРЅs СЂР°Р·РјРµСЂ РїСЂРёРєСЂРµРїР»СЏРµРјРѕРіРѕ С„Р°Р№Р»Р° (РІ РњР±Р°Р№С‚).
 const int FILE_SIZE_LIMIT = 10;
 
-// Дескриптор главного окна.
+// Р”РµСЃРєСЂРёРїС‚РѕСЂ РіР»Р°РІРЅРѕРіРѕ РѕРєРЅР°.
 HWND MainWindow = NULL;
-// Количество получателей почты.
+// РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕР»СѓС‡Р°С‚РµР»РµР№ РїРѕС‡С‚С‹.
 int RecipientCount = 0;
-// Количество приложенных файлов.
+// РљРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРёР»РѕР¶РµРЅРЅС‹С… С„Р°Р№Р»РѕРІ.
 int FileCount = 0;
-// Вектор имён файлов.
+// Р’РµРєС‚РѕСЂ РёРјС‘РЅ С„Р°Р№Р»РѕРІ.
 vector<string> FileNames;
 
 /**
- * Главная функция.
- * @param hInstance - дескриптор экземпляра оконного сообщения.
- * @param nCmdShow - значение, передаваемое функции ShowWindow.
+ * Р“Р»Р°РІРЅР°СЏ С„СѓРЅРєС†РёСЏ.
+ * @param hInstance - РґРµСЃРєСЂРёРїС‚РѕСЂ СЌРєР·РµРјРїР»СЏСЂР° РѕРєРѕРЅРЅРѕРіРѕ СЃРѕРѕР±С‰РµРЅРёСЏ.
+ * @param nCmdShow - Р·РЅР°С‡РµРЅРёРµ, РїРµСЂРµРґР°РІР°РµРјРѕРµ С„СѓРЅРєС†РёРё ShowWindow.
  */
 INT WINAPI _tWinMain(HINSTANCE hInstance, HINSTANCE, LPTSTR, INT nCmdShow)
 {
@@ -122,12 +122,12 @@ INT WINAPI _tWinMain(HINSTANCE hInstance, HINSTANCE, LPTSTR, INT nCmdShow)
 }
 
 /**
- * Оконная процедура главного окна.
- * @param hWnd - дескриптор главного окна.
- * @param uMsg - код сообщения.
- * @param wParam - параметр оконной процедуры.
- * @param lParam - параметр оконной процедуры.
- * @return результат обработки оконного сообщения.
+ * РћРєРѕРЅРЅР°СЏ РїСЂРѕС†РµРґСѓСЂР° РіР»Р°РІРЅРѕРіРѕ РѕРєРЅР°.
+ * @param hWnd - РґРµСЃРєСЂРёРїС‚РѕСЂ РіР»Р°РІРЅРѕРіРѕ РѕРєРЅР°.
+ * @param uMsg - РєРѕРґ СЃРѕРѕР±С‰РµРЅРёСЏ.
+ * @param wParam - РїР°СЂР°РјРµС‚СЂ РѕРєРѕРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹.
+ * @param lParam - РїР°СЂР°РјРµС‚СЂ РѕРєРѕРЅРЅРѕР№ РїСЂРѕС†РµРґСѓСЂС‹.
+ * @return СЂРµР·СѓР»СЊС‚Р°С‚ РѕР±СЂР°Р±РѕС‚РєРё РѕРєРѕРЅРЅРѕРіРѕ СЃРѕРѕР±С‰РµРЅРёСЏ.
  */
 LRESULT CALLBACK MyWindowProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
@@ -148,62 +148,62 @@ LRESULT CALLBACK MyWindowProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam
 }
 
 /**
- * Обработка отображение главного окна.
- * @param hWnd - дескриптор главного окна.
- * @param lpCreateStruct - структура, описывающая созданное окна.
+ * РћР±СЂР°Р±РѕС‚РєР° РѕС‚РѕР±СЂР°Р¶РµРЅРёРµ РіР»Р°РІРЅРѕРіРѕ РѕРєРЅР°.
+ * @param hWnd - РґРµСЃРєСЂРёРїС‚РѕСЂ РіР»Р°РІРЅРѕРіРѕ РѕРєРЅР°.
+ * @param lpCreateStruct - СЃС‚СЂСѓРєС‚СѓСЂР°, РѕРїРёСЃС‹РІР°СЋС‰Р°СЏ СЃРѕР·РґР°РЅРЅРѕРµ РѕРєРЅР°.
  */
 BOOL OnCreate(HWND hWnd, LPCREATESTRUCT lpCreateStruct)
 {
-	CreateWindowEx(0, TEXT("Static"), TEXT("Доменное имя сервера"), WS_CHILD | WS_VISIBLE, 17, 17, 400, 17, hWnd, NULL, lpCreateStruct->hInstance, NULL);
+	CreateWindowEx(0, TEXT("Static"), TEXT("Р”РѕРјРµРЅРЅРѕРµ РёРјСЏ СЃРµСЂРІРµСЂР°"), WS_CHILD | WS_VISIBLE, 17, 17, 400, 17, hWnd, NULL, lpCreateStruct->hInstance, NULL);
 	HWND hTemp = CreateWindowEx(0, TEXT("Edit"), TEXT_EMPTY, WS_CHILD | WS_VISIBLE, 17, 37, 400, 17, hWnd, (HMENU)IDC_EDIT_SERVER_NAME, lpCreateStruct->hInstance, NULL);
 	SendMessage(hTemp, EM_SETLIMITTEXT, EDIT_LIMIT, 0);
 
-	CreateWindowEx(0, TEXT("Static"), TEXT("IPv4-адрес сервера"), WS_CHILD | WS_VISIBLE, 17, 57, 400, 17, hWnd, NULL, lpCreateStruct->hInstance, NULL);
+	CreateWindowEx(0, TEXT("Static"), TEXT("IPv4-Р°РґСЂРµСЃ СЃРµСЂРІРµСЂР°"), WS_CHILD | WS_VISIBLE, 17, 57, 400, 17, hWnd, NULL, lpCreateStruct->hInstance, NULL);
 	CreateWindowEx(0, TEXT("SysIPAddress32"), TEXT_EMPTY, WS_CHILD | WS_VISIBLE, 17, 77, 400, 20, hWnd, (HMENU)IDC_IP_SERVER_IP, lpCreateStruct->hInstance, NULL);
 
-	CreateWindowEx(0, TEXT("Static"), TEXT("Адрес отправителя (логин)"), WS_CHILD | WS_VISIBLE, 17, 100, 400, 17, hWnd, NULL, lpCreateStruct->hInstance, NULL);
+	CreateWindowEx(0, TEXT("Static"), TEXT("РђРґСЂРµСЃ РѕС‚РїСЂР°РІРёС‚РµР»СЏ (Р»РѕРіРёРЅ)"), WS_CHILD | WS_VISIBLE, 17, 100, 400, 17, hWnd, NULL, lpCreateStruct->hInstance, NULL);
 	hTemp = CreateWindowEx(0, TEXT("Edit"), TEXT_EMPTY, WS_CHILD | WS_VISIBLE, 17, 120, 400, 17, hWnd, (HMENU)IDC_EDIT_SENDER, lpCreateStruct->hInstance, NULL);
 	SendMessage(hTemp, EM_SETLIMITTEXT, EDIT_LIMIT, 0);
 
-	CreateWindowEx(0, TEXT("Static"), TEXT("Пароль"), WS_CHILD | WS_VISIBLE, 17, 140, 400, 17, hWnd, NULL, lpCreateStruct->hInstance, NULL);
+	CreateWindowEx(0, TEXT("Static"), TEXT("РџР°СЂРѕР»СЊ"), WS_CHILD | WS_VISIBLE, 17, 140, 400, 17, hWnd, NULL, lpCreateStruct->hInstance, NULL);
 	hTemp = CreateWindowEx(0, TEXT("Edit"), TEXT_EMPTY, WS_CHILD | WS_VISIBLE | ES_PASSWORD, 17, 160, 400, 17, hWnd, (HMENU)IDC_EDIT_PASSWORD, lpCreateStruct->hInstance, NULL);
 	SendMessage(hTemp, EM_SETLIMITTEXT, EDIT_LIMIT, 0);
 
-	CreateWindowEx(0, TEXT("Static"), TEXT("Получатели"), WS_CHILD | WS_VISIBLE, 17, 180, 400, 17, hWnd, NULL, lpCreateStruct->hInstance, NULL);
+	CreateWindowEx(0, TEXT("Static"), TEXT("РџРѕР»СѓС‡Р°С‚РµР»Рё"), WS_CHILD | WS_VISIBLE, 17, 180, 400, 17, hWnd, NULL, lpCreateStruct->hInstance, NULL);
 	CreateWindowEx(0, TEXT("ListBox"), NULL, WS_CHILD | WS_VISIBLE | WS_BORDER | WS_HSCROLL | LBS_NOTIFY, 17, 200, 400, RECIPIENT_LIMIT * 17, hWnd, (HMENU)IDC_LISTBOX_RECIPIENTS, lpCreateStruct->hInstance, NULL);
 
-	CreateWindowEx(0, TEXT("Static"), TEXT("Добавление получателя"), WS_CHILD | WS_VISIBLE, 17, 288, 400, 17, hWnd, NULL, lpCreateStruct->hInstance, NULL);
+	CreateWindowEx(0, TEXT("Static"), TEXT("Р”РѕР±Р°РІР»РµРЅРёРµ РїРѕР»СѓС‡Р°С‚РµР»СЏ"), WS_CHILD | WS_VISIBLE, 17, 288, 400, 17, hWnd, NULL, lpCreateStruct->hInstance, NULL);
 	hTemp = CreateWindowEx(0, TEXT("Edit"), TEXT_EMPTY, WS_CHILD | WS_VISIBLE, 17, 308, 400, 17, hWnd, (HMENU)IDC_EDIT_RECIPIENT, lpCreateStruct->hInstance, NULL);
 	SendMessage(hTemp, EM_SETLIMITTEXT, EDIT_LIMIT, 0);
 
-	CreateWindowEx(0, TEXT("Button"), TEXT("Добавить"), WS_CHILD | WS_VISIBLE, 17, 337, 175, 23, hWnd, (HMENU)IDC_BUTTON_ADD_RECIPIENT, lpCreateStruct->hInstance, NULL);
-	CreateWindowEx(0, TEXT("Button"), TEXT("Удалить"), WS_CHILD | WS_VISIBLE, 242, 337, 175, 23, hWnd, (HMENU)IDC_BUTTON_DELETE_RECIPIENT, lpCreateStruct->hInstance, NULL);
+	CreateWindowEx(0, TEXT("Button"), TEXT("Р”РѕР±Р°РІРёС‚СЊ"), WS_CHILD | WS_VISIBLE, 17, 337, 175, 23, hWnd, (HMENU)IDC_BUTTON_ADD_RECIPIENT, lpCreateStruct->hInstance, NULL);
+	CreateWindowEx(0, TEXT("Button"), TEXT("РЈРґР°Р»РёС‚СЊ"), WS_CHILD | WS_VISIBLE, 242, 337, 175, 23, hWnd, (HMENU)IDC_BUTTON_DELETE_RECIPIENT, lpCreateStruct->hInstance, NULL);
 
-	CreateWindowEx(0, TEXT("Static"), TEXT("Прикреплённые файлы"), WS_CHILD | WS_VISIBLE, 17, 362, 400, 17, hWnd, NULL, lpCreateStruct->hInstance, NULL);
+	CreateWindowEx(0, TEXT("Static"), TEXT("РџСЂРёРєСЂРµРїР»С‘РЅРЅС‹Рµ С„Р°Р№Р»С‹"), WS_CHILD | WS_VISIBLE, 17, 362, 400, 17, hWnd, NULL, lpCreateStruct->hInstance, NULL);
 	CreateWindowEx(0, TEXT("ListBox"), NULL, WS_CHILD | WS_VISIBLE | WS_BORDER | WS_HSCROLL | LBS_NOTIFY | WS_HSCROLL, 17, 382, 400, FILE_LIMIT * 17, hWnd, (HMENU)IDC_LISTBOX_FILES, lpCreateStruct->hInstance, NULL);
 
-	CreateWindowEx(0, TEXT("Button"), TEXT("Добавить"), WS_CHILD | WS_VISIBLE, 17, 473, 175, 23, hWnd, (HMENU)IDC_BUTTON_ADD_FILE, lpCreateStruct->hInstance, NULL);
-	CreateWindowEx(0, TEXT("Button"), TEXT("Удалить"), WS_CHILD | WS_VISIBLE, 242, 473, 175, 23, hWnd, (HMENU)IDC_BUTTON_DELETE_FILE, lpCreateStruct->hInstance, NULL);
+	CreateWindowEx(0, TEXT("Button"), TEXT("Р”РѕР±Р°РІРёС‚СЊ"), WS_CHILD | WS_VISIBLE, 17, 473, 175, 23, hWnd, (HMENU)IDC_BUTTON_ADD_FILE, lpCreateStruct->hInstance, NULL);
+	CreateWindowEx(0, TEXT("Button"), TEXT("РЈРґР°Р»РёС‚СЊ"), WS_CHILD | WS_VISIBLE, 242, 473, 175, 23, hWnd, (HMENU)IDC_BUTTON_DELETE_FILE, lpCreateStruct->hInstance, NULL);
 
-	CreateWindowEx(0, TEXT("Static"), TEXT("Тема письма"), WS_CHILD | WS_VISIBLE, 477, 17, 400, 17, hWnd, NULL, lpCreateStruct->hInstance, NULL);
+	CreateWindowEx(0, TEXT("Static"), TEXT("РўРµРјР° РїРёСЃСЊРјР°"), WS_CHILD | WS_VISIBLE, 477, 17, 400, 17, hWnd, NULL, lpCreateStruct->hInstance, NULL);
 	hTemp = CreateWindowEx(0, TEXT("Edit"), TEXT_EMPTY, WS_CHILD | WS_VISIBLE, 477, 37, 400, 17, hWnd, (HMENU)IDC_EDIT_SUBJECT, lpCreateStruct->hInstance, NULL);
 	SendMessage(hTemp, EM_SETLIMITTEXT, EDIT_LIMIT, 0);
 
-	CreateWindowEx(0, TEXT("Static"), TEXT("Текст письма"), WS_CHILD | WS_VISIBLE, 477, 57, 600, 17, hWnd, NULL, lpCreateStruct->hInstance, NULL);
+	CreateWindowEx(0, TEXT("Static"), TEXT("РўРµРєСЃС‚ РїРёСЃСЊРјР°"), WS_CHILD | WS_VISIBLE, 477, 57, 600, 17, hWnd, NULL, lpCreateStruct->hInstance, NULL);
 	hTemp = CreateWindowEx(0, TEXT("Edit"), TEXT_EMPTY, WS_CHILD | WS_VISIBLE | WS_VSCROLL | ES_MULTILINE | ES_AUTOVSCROLL, 477, 77, 600, 17 * 27, hWnd, (HMENU)IDC_EDIT_MESSAGE, lpCreateStruct->hInstance, NULL);
 	SendMessage(hTemp, EM_SETLIMITTEXT, MESSAGE_LIMIT, 0);
 
-	CreateWindowEx(0, TEXT("Button"), TEXT("Отправить"), WS_CHILD | WS_VISIBLE, 902, 560, 175, 23, hWnd, (HMENU)IDC_BUTTON_SEND, lpCreateStruct->hInstance, NULL);
+	CreateWindowEx(0, TEXT("Button"), TEXT("РћС‚РїСЂР°РІРёС‚СЊ"), WS_CHILD | WS_VISIBLE, 902, 560, 175, 23, hWnd, (HMENU)IDC_BUTTON_SEND, lpCreateStruct->hInstance, NULL);
 
 	return TRUE;
 }
 
 /**
- * Обработка нажатия на элемент управления.
- * @param hWnd - дескриптор главного окна.
- * @param id - идентификатор элемента управления.
- * @param hwndCtl - дескриптор нажатого элемента управления.
- * @param codeNotify - код уведомления.
+ * РћР±СЂР°Р±РѕС‚РєР° РЅР°Р¶Р°С‚РёСЏ РЅР° СЌР»РµРјРµРЅС‚ СѓРїСЂР°РІР»РµРЅРёСЏ.
+ * @param hWnd - РґРµСЃРєСЂРёРїС‚РѕСЂ РіР»Р°РІРЅРѕРіРѕ РѕРєРЅР°.
+ * @param id - РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ СЌР»РµРјРµРЅС‚Р° СѓРїСЂР°РІР»РµРЅРёСЏ.
+ * @param hwndCtl - РґРµСЃРєСЂРёРїС‚РѕСЂ РЅР°Р¶Р°С‚РѕРіРѕ СЌР»РµРјРµРЅС‚Р° СѓРїСЂР°РІР»РµРЅРёСЏ.
+ * @param codeNotify - РєРѕРґ СѓРІРµРґРѕРјР»РµРЅРёСЏ.
  */
 VOID OnCommand(HWND hWnd, INT id, HWND hwndCtl, UINT codeNotify)
 {
@@ -220,7 +220,7 @@ VOID OnCommand(HWND hWnd, INT id, HWND hwndCtl, UINT codeNotify)
 
 		if (RecipientCount == RECIPIENT_LIMIT)
 		{
-			MessageBox(MainWindow, TEXT("Достигнуто максимальное кол-во получателей. "), TEXT("Ошибка"), MB_OK | MB_ICONERROR | MB_DEFBUTTON1);
+			MessageBox(MainWindow, TEXT("Р”РѕСЃС‚РёРіРЅСѓС‚Рѕ РјР°РєСЃРёРјР°Р»СЊРЅРѕРµ РєРѕР»-РІРѕ РїРѕР»СѓС‡Р°С‚РµР»РµР№. "), TEXT("РћС€РёР±РєР°"), MB_OK | MB_ICONERROR | MB_DEFBUTTON1);
 
 			return;
 		}
@@ -249,7 +249,7 @@ VOID OnCommand(HWND hWnd, INT id, HWND hwndCtl, UINT codeNotify)
 	{
 		if (FileCount == FILE_LIMIT)
 		{
-			MessageBox(MainWindow, TEXT("Достигнуто максимальное кол-во прикрепляемых файлов. "), TEXT("Ошибка"), MB_OK | MB_ICONERROR | MB_DEFBUTTON1);
+			MessageBox(MainWindow, TEXT("Р”РѕСЃС‚РёРіРЅСѓС‚Рѕ РјР°РєСЃРёРјР°Р»СЊРЅРѕРµ РєРѕР»-РІРѕ РїСЂРёРєСЂРµРїР»СЏРµРјС‹С… С„Р°Р№Р»РѕРІ. "), TEXT("РћС€РёР±РєР°"), MB_OK | MB_ICONERROR | MB_DEFBUTTON1);
 
 			return;
 		}
@@ -262,7 +262,7 @@ VOID OnCommand(HWND hWnd, INT id, HWND hwndCtl, UINT codeNotify)
 		ofn.lpstrFile = fileName;
 		ofn.lpstrFile[0] = '\0';
 		ofn.nMaxFile = MAX_PATH;
-		ofn.lpstrFilter = TEXT("Все\0*.*\0");
+		ofn.lpstrFilter = TEXT("Р’СЃРµ\0*.*\0");
 		ofn.nFilterIndex = 0;
 		ofn.lpstrFileTitle = NULL;
 		ofn.nMaxFileTitle = 0;
@@ -275,7 +275,7 @@ VOID OnCommand(HWND hWnd, INT id, HWND hwndCtl, UINT codeNotify)
 			size_t size = file.tellg();
 			if (size > FILE_SIZE_LIMIT * 1024 * 1024)
 			{
-				MessageBox(MainWindow, TEXT("Прикрепляемый файл слишком большой. "), TEXT("Ошибка"), MB_OK | MB_ICONERROR | MB_DEFBUTTON1);
+				MessageBox(MainWindow, TEXT("РџСЂРёРєСЂРµРїР»СЏРµРјС‹Р№ С„Р°Р№Р» СЃР»РёС€РєРѕРј Р±РѕР»СЊС€РѕР№. "), TEXT("РћС€РёР±РєР°"), MB_OK | MB_ICONERROR | MB_DEFBUTTON1);
 
 				return;
 			}
@@ -313,7 +313,7 @@ VOID OnCommand(HWND hWnd, INT id, HWND hwndCtl, UINT codeNotify)
 }
 
 /**
- * Обработка нажатия кнопки отправки письма.
+ * РћР±СЂР°Р±РѕС‚РєР° РЅР°Р¶Р°С‚РёСЏ РєРЅРѕРїРєРё РѕС‚РїСЂР°РІРєРё РїРёСЃСЊРјР°.
  */
 VOID OnSendMessage()
 { 
@@ -339,18 +339,18 @@ VOID OnSendMessage()
 	string res = SendEmail(serverName, serverIP, recipients, subject, sender, password, message, FileNames);
 	if (!res.empty())
 	{
-		MessageBox(MainWindow, res.c_str(), TEXT("Ошибка"), MB_OK | MB_ICONERROR | MB_DEFBUTTON1);
+		MessageBox(MainWindow, res.c_str(), TEXT("РћС€РёР±РєР°"), MB_OK | MB_ICONERROR | MB_DEFBUTTON1);
 
 		return;
 	}
 
-	MessageBox(MainWindow, TEXT("Отправка письма успешно завешена. "), TEXT("Отправка"), MB_OK | MB_ICONINFORMATION | MB_DEFBUTTON1);
+	MessageBox(MainWindow, TEXT("РћС‚РїСЂР°РІРєР° РїРёСЃСЊРјР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµС€РµРЅР°. "), TEXT("РћС‚РїСЂР°РІРєР°"), MB_OK | MB_ICONINFORMATION | MB_DEFBUTTON1);
 }
 
 /**
- * Получение IP-адреса SMTP-сервера, введённого пользователем.
- * @return IP-адрес SMTP-сервера вида ip1.ip2.ip3.ip4 .
- * @note Если пользователь не вввёл IP-адрес возвращается пустая строка.
+ * РџРѕР»СѓС‡РµРЅРёРµ IP-Р°РґСЂРµСЃР° SMTP-СЃРµСЂРІРµСЂР°, РІРІРµРґС‘РЅРЅРѕРіРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»РµРј.
+ * @return IP-Р°РґСЂРµСЃ SMTP-СЃРµСЂРІРµСЂР° РІРёРґР° ip1.ip2.ip3.ip4 .
+ * @note Р•СЃР»Рё РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ РЅРµ РІРІРІС‘Р» IP-Р°РґСЂРµСЃ РІРѕР·РІСЂР°С‰Р°РµС‚СЃСЏ РїСѓСЃС‚Р°СЏ СЃС‚СЂРѕРєР°.
  */
 string GetServerIP()
 {
@@ -370,8 +370,8 @@ string GetServerIP()
 }
 
 /**
- * "Выборка" получателей письма, введённых пользователем.
- * @return получатели письма.
+ * "Р’С‹Р±РѕСЂРєР°" РїРѕР»СѓС‡Р°С‚РµР»РµР№ РїРёСЃСЊРјР°, РІРІРµРґС‘РЅРЅС‹С… РїРѕР»СЊР·РѕРІР°С‚РµР»РµРј.
+ * @return РїРѕР»СѓС‡Р°С‚РµР»Рё РїРёСЃСЊРјР°.
  */
 vector<string> GetRecipients()
 {
